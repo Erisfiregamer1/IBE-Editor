@@ -1,6 +1,6 @@
 allprojects {
     apply plugin: "java"
-    java.toolchain.languageVersion = JavaLanguageVersion.of(18)
+    java.toolchain.languageVersion = JavaLanguageVersion.of(17)
     repositories {
         mavenCentral()
         maven {
